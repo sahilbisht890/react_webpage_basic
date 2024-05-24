@@ -1,0 +1,16 @@
+
+@keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .heroAnimated {
+    animation: upDown 5s infinite; /* Adjust timing as needed */
+  }
